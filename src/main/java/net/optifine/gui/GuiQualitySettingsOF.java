@@ -1,0 +1,3 @@
+public class GuiQualitySettingsOF {
+	// Failed to decompile, took too long to decompile: net/optifine/gui/GuiQualitySettingsOF
+}

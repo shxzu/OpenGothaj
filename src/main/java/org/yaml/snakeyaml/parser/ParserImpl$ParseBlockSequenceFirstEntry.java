@@ -1,0 +1,19 @@
+package org.yaml.snakeyaml.parser;
+
+import org.yaml.snakeyaml.events.Event;
+import org.yaml.snakeyaml.parser.ParserImpl;
+import org.yaml.snakeyaml.parser.Production;
+import org.yaml.snakeyaml.tokens.Token;
+
+class ParserImpl$ParseBlockSequenceFirstEntry
+implements Production {
+    private ParserImpl$ParseBlockSequenceFirstEntry() {
+    }
+
+    @Override
+    public Event produce() {
+        Token token = ParserImpl.this.scanner.getToken();
+        ParserImpl.this.marks.push(token.getStartMark());
+        return new ParserImpl.ParseBlockSequenceEntryKey(ParserImpl.this, null).produce();
+    }
+}

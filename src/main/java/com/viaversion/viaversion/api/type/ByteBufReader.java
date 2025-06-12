@@ -1,0 +1,8 @@
+package com.viaversion.viaversion.api.type;
+
+import io.netty.buffer.ByteBuf;
+
+@FunctionalInterface
+public interface ByteBufReader<T> {
+    public T read(ByteBuf var1) throws Exception;
+}

@@ -1,0 +1,3 @@
+public class MetadataRewriter1_13_1To1_13 {
+	// Failed to decompile, took too long to decompile: com/viaversion/viaversion/protocols/protocol1_13_1to1_13/metadata/MetadataRewriter1_13_1To1_13
+}
