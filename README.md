@@ -1,4 +1,4 @@
-# Open Gothaj
+# Open Gothaj DOES NOT WORK RIGHT NOW!!!
 
 **Intellij Ready**
 
